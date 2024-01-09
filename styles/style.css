@@ -8,6 +8,30 @@
     
 }
 
+.site-main-title{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.site-red-title{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+.site-description{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px; 
+} 
+
 
 /* header section  style*/
 .banner-container{
@@ -95,6 +119,7 @@ font-weight: 700;
     border-radius: 20px;
     padding: 200px 200px;
     display: flex;
+    justify-content: space-between;
 
 }
 .vectorr-title{
@@ -129,7 +154,7 @@ font-weight: 700;
 
 .date-section{
     text-align: center;
-    padding: 100px 350px;
+    padding: 50px 150px;
     background-color: #FFF3F3;
     margin-top: 50px;
     
@@ -151,3 +176,28 @@ font-weight: 700;
     
 }
 
+/* coming soon section styles */
+
+.Coming-soon-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+
+
+}
+
+.coming-soon-left{
+    width: 33%;
+}
+.coming-soon-center img{
+    border-radius: 50%;
+    
+    /* flex-shrink: 0; */
+    
+    border: 15px solid #F00;
+    padding: 10px;
+    height: 200px;
+    width: 200px;
+}
+    
+   
