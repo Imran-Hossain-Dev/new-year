@@ -227,6 +227,11 @@ font-weight: 700;
 
 /* discount section styles */
 
+.discount{
+
+    margin-bottom: 20px;
+}
+
 .discount-text-section{
     padding: 80px 20px;
     margin: 20px 0;
@@ -292,4 +297,34 @@ font-weight: 700;
     background-size: cover;
     border-radius: 20px 0 20px 20px;
     padding: 110px 80px;
+}
+
+/* portfolio section style */
+
+.portfolio-text{
+    padding: 20px 100px 20px 0;
+    max-width: 60%;
+    
+}
+
+.portfolio-sub-title{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    
+}
+
+.protfolio-img-section-1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.protfolio-img-section-2{
+    display: flex;
+    justify-content: space-between;
+}
+.coomon-margin-sher{
+    margin-right: 5px;
 }
