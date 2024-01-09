@@ -189,6 +189,9 @@ font-weight: 700;
 .coming-soon-left{
     width: 33%;
 }
+.coming-soon-center{
+    width: 33%;
+}
 .coming-soon-center img{
     border-radius: 50%;
     
@@ -196,8 +199,30 @@ font-weight: 700;
     
     border: 15px solid #F00;
     padding: 10px;
-    height: 200px;
-    width: 200px;
+    /* height: 200px;
+    width: 200px; */
+    margin: 0 40 0 40pxpx;
 }
     
+
+.coming-soon-right{
+    width: 30%;
+    
+}
+
+.coming-soon-right-title {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+
+}
+
+
+.comming-soon-description{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;;
+    
+    
+}
    
